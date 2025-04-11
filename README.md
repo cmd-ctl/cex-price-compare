@@ -9,7 +9,9 @@ TARGET_TOKENS = ['ETH', 'TON', 'SOL', 'HOLD']; // null for all <br>
 Set for target list of tokens or scan for all cex listed <br><br>
 PERCENT = 0; // 0 for all, discrepancy percent <br>
 Set the price discrepancy. If lower than pointed token won't be shown.
-
-<br><be>
+<br><br>
+Note: some tokens can have different tikers on cex and cause infelicity <br><br>
+Such as HOLD in the example: <br> HOLD on MEXC = HOLDCOIN on KuCoin, and another token listed as HOLD
+<br><br>
 Output example:<br>
 ![image](https://github.com/user-attachments/assets/56235c98-daff-4f16-a851-a28163e85d87)
